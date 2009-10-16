@@ -2,7 +2,8 @@
   (:use clojure.test))
 
 (def tests
-     ['clojure.test_koans 'sicp.week_one])
+     ['clojure.test_koans 'clojure.test_forms
+      'sicp.week_one 'sicp.week_two])
 
 (doseq [test tests] (require test))
 
